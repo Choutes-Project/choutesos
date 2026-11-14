@@ -95,9 +95,10 @@ Choutes Project is an independent project. Donations go to its development: more
 
 ## License
 
-The source code of Choutes Project is licensed under the GNU General Public License, version 3 or later. The Choutes Project name, logo, and artwork are not covered by that license. Every package carries the license of its contents.
+Every program in Choutes Project keeps the licence of its authors; the Linux kernel, for example, is licensed under the GNU GPL version 2. The packages made by Choutes Project are licensed under the GNU General Public License, version 3 or later. The Choutes Project name, logo, and artwork are not covered by that licence. Read the [Terms of Use](https://choutes.com/terms.html) for the details.
 
 ---
 
-<sub>&copy; 2026 Choutes Project. All rights reserved.<br>
-An independent project, not affiliated with Arch Linux.</sub>
+<sub>&copy; 2026 Choutes Project. The Choutes Project name, its logo, and its stick figure are trademarks of Choutes Project.<br>
+Linux&reg; is the registered trademark of Linus Torvalds in the U.S. and other countries. Choutes Project is built on Arch Linux and is not affiliated with or endorsed by the Arch Linux project. KDE&reg; is a registered trademark of KDE e.V. Other names and logos belong to their owners.<br>
+Choutes Project is free and shows no advertising; it is kept alive by donations from its users. <a href="https://choutes.com/terms.html">Terms of Use</a> &middot; <a href="https://choutes.com/privacy.html">Privacy Policy</a> &middot; <a href="https://choutes.com/cookies.html">Cookie Policy</a></sub>
