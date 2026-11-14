@@ -1,0 +1,45 @@
+name: Suggestion
+description: An idea for a new feature or an improvement of Choutes Project
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for your idea. Search the [open issues](https://github.com/Choutes-Project/Choutes-Project/issues) first: if it is already suggested, add your thoughts there.
+  - type: textarea
+    id: idea
+    attributes:
+      label: Your idea
+      description: What should Choutes Project do, or do differently?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why it helps
+      description: What problem does it solve, and for whom?
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of Choutes Project
+      options:
+        - Installer
+        - First start (account and look)
+        - Desktop, themes, lock or login screen
+        - Software and updates
+        - Drivers and hardware
+        - Welcome, Cleaner, or Reset System
+        - Games
+        - Applications
+        - Website or Help Center
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: more
+    attributes:
+      label: More details
+      description: Examples, pictures, or how other systems do it.

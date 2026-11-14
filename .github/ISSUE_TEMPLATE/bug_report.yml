@@ -1,0 +1,66 @@
+name: Bug report
+description: Something in Choutes Project does not work as it should
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thank you for helping to improve Choutes Project. Search the [open issues](https://github.com/Choutes-Project/Choutes-Project/issues) first: if the problem is already reported, add what you know there.
+        Security problems are reported privately, as described in the [security policy](https://github.com/Choutes-Project/.github/blob/main/SECURITY.md).
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What did you do, what did you expect, and what happened instead?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open …
+        2. Choose …
+        3. …
+    validations:
+      required: true
+  - type: dropdown
+    id: area
+    attributes:
+      label: Part of Choutes Project
+      options:
+        - Installer
+        - First start (account and look)
+        - Desktop, themes, lock or login screen
+        - Software and updates
+        - Drivers and hardware
+        - Welcome, Cleaner, or Reset System
+        - Games
+        - Applications
+        - Boot and performance
+        - Something else
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Choutes Project version
+      description: Run `cat /etc/os-release` in Konsole and copy the VERSION_ID line, for example 2026.11.14.
+    validations:
+      required: true
+  - type: input
+    id: hardware
+    attributes:
+      label: Computer
+      description: Model, processor, and graphics card.
+  - type: textarea
+    id: diag
+    attributes:
+      label: Report of choutes-diag
+      description: Run `choutes-diag` in Konsole and attach `choutes-diag.txt` from your home folder (drag it here). For a failed update, paste the log from Copy Log in Software.
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots
+      description: Drag screenshots or photos of the screen here.
