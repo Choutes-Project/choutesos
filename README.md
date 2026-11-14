@@ -43,13 +43,15 @@
   </tr>
   <tr>
     <td><img src="assets/screenshots/desktop-light.jpg" alt="The light theme"></td>
-    <td><img src="assets/screenshots/game-1.jpg" alt="A game on Choutes Project"></td>
+    <td><img src="assets/screenshots/game-1.jpg" alt="Zenless Zone Zero on Choutes Project"></td>
   </tr>
   <tr>
     <td><img src="assets/screenshots/welcome.jpg" alt="Welcome"></td>
     <td><img src="assets/screenshots/fastfetch.jpg" alt="Fastfetch in Konsole"></td>
   </tr>
 </table>
+
+<sub>Game in the screenshot: Zenless Zone Zero &copy; COGNOSPHERE (HoYoverse). Choutes Project is not affiliated with, endorsed by, or sponsored by the owners of the games shown.</sub>
 
 ## Download
 
